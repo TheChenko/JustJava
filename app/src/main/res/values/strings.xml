@@ -14,4 +14,7 @@
     <string name="order_summary_price">Total</string>
     <string name="thank_you">Thank you</string>
     <string name="order_summary_email_subject">Order summary email subject</string>
+    <string name="minus">-</string>
+    <string name="zero">0</string>
+    <string name="plus">+</string>
 </resources>
