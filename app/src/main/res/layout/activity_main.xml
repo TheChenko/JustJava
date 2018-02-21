@@ -16,14 +16,14 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="What is your name ?"
+        android:hint="@string/name"
         android:id="@+id/username"
         android:inputType="text"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Toppings"
+        android:text="@string/toppings"
         android:textAllCaps="true"
         android:layout_marginBottom="16dp"/>
 
@@ -40,7 +40,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Whipped Cream"
+            android:text="@string/whipped_cream"
             android:layout_marginLeft="24dp"
             android:textSize="16sp"/>
 
@@ -59,7 +59,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chocolate"
+            android:text="@string/chocolate"
             android:layout_marginLeft="24dp"
             android:textSize="16sp"/>
 
@@ -72,7 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp"
-        android:text="Quantity"
+        android:text="@string/quantity"
         android:textAllCaps="true" />
 
     <LinearLayout
@@ -111,7 +111,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:onClick="submitOrder"
-        android:text="Order" />
+        android:text="@string/order" />
 
 </LinearLayout>
 </ScrollView>
